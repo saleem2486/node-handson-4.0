@@ -1,0 +1,175 @@
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+*{
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav-heading{
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.home-cont {
+  background-color: rgb(137, 109, 163);
+  height:100px;
+}
+
+.body-home{
+  height: 100%;
+  width: 100%;
+}
+.image-inhome{
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: rgba(118, 18, 18, 0.76);
+  
+  min-width: 30rem;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.Submit-btn {
+  padding: 10px 40px;
+  border-radius: 15px;
+  background-color: #0093E9;
+}
+/* .sign-up{
+  width: 80%;
+    height: 1.7rem;
+    border-radius: 7px;
+    text-align: center;
+} */
+.lockImg {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+.footer-cont {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  background-color: rgb(135, 136, 136);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: bold;
+}
+.footer{
+  color: rgb(253, 253, 253);
+}
+.logout-btn {
+  background-color: #0093E9;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+.logout-btn-home {
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  font-size: 16px;
+}
+.regCon{
+  height: 100vh;
+  display: flex;
+}
+.sign-text {
+  position: absolute;
+  color: lavenderblush;
+  left: 47%;
+  top: 20%;
+  font-size: larger;
+  font-family: auto;
+  font-weight: 900;
+}
+.login-text {
+  position: absolute;
+  color: lavenderblush;
+  left: 47%;
+  top: 20%;
+  font-size: larger;
+  font-family: auto;
+  font-weight: 900;
+}
+.back-btn{
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  font-size: 16px;
+  font-family: auto;
+  padding: 0.4rem 0.8rem;
+  border-radius: 9px;
+}
+.log-in {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.login-compt {
+  background-color: aliceblue;
+  height: 17rem;
+  width: 30%;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: aliceblue;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  min-width: 20rem;
+}
+.login-1{
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+}
+.text {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 100px;
+}
+
+.linkall{
+  color: white;
+}
+
